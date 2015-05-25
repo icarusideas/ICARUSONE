@@ -21,7 +21,7 @@ int lastButton4State = LOW;
 
 void setup() 
 { 
-  myservo.attach(9);  // attaches the servo on pin 9 to the servo object 
+  myservo.attach(9);
   pinMode(triggerpin, INPUT);
   pinMode(offpin, INPUT);
   pinMode(dot, INPUT);
